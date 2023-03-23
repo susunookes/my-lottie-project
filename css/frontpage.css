@@ -11,4 +11,14 @@ body {
 .page-section {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.jumbotron {
+  background-color: #fafafa;
+}
+
+.lottie-card {
+  width: 15rem;
+  height: 30rem;
+  background-color: #64c7be;
 }/*# sourceMappingURL=frontpage.css.map */
