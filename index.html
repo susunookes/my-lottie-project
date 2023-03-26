@@ -33,7 +33,7 @@
 <div class="page-section" id="welcome-section">
     <div class="row">
         <div class="col lottie-card mr-5">
-            lottie.json
+            <lottie-interactive path="animations/lottie.json" interaction="click" autoplay></lottie-interactive>
         </div>
         <div class="col ml-4">
             <h1 class="header">
@@ -48,12 +48,73 @@
                             <label for="exampleInputEmail1" class="text-left">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">サインアップ</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<div class="page-section" id="begin-section">
+    <div class="text-center">
+        <div class="row">
+            <div class="col justify-content-center align-items-center m-auto">
+                <h2>
+                    Not sure where to <span style="color: #ffd500;"> begin? </span>
+                </h2>
+                <p>
+                    No worries, we'll help you get the ball rolling, err, climbing.
+                </p>
+            </div>
+            <div class="col no-gutters p-0">
+                <lottie-interactive path="animations/ball-on-stairs.json" interaction="play-on-show">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-section" id="lighthouse-section">
+    <h4 class="text-center">Lottieアニメーションについて学ぶ。Webサイトへの追加とそれらにインタラクションを追加する。</h4>
+    <div class="row">
+        <div class="col">
+            light-house.json
+        </div>
+    </div>
+</div>
+
+<div class="page-section" id="interaction-section">
+    <p class="text-center">こんなインタラクションを知っていましたか？</p>
+    <div class="text-center">
+        <div class="row">
+            <div class="col justify-content-center m-auto">
+                1.
+            </div>
+            <div class="col">
+                <lottie-interactive path="animations/contacts-list.json" interaction="click"></lottie-interactive>
+            </div>
+            <div class="col justify-content-center m-auto">
+                クリック
+            </div>
+        </div>
+        <div class="row">
+            <div class="col justify-content-center m-auto">
+                2.
+            </div>
+            <div class="col">
+                <lottie-interactive path="animations/squishy-isometric-cube-loader.json" interaction="freeze-click"></lottie-interactive>
+            </div>
+            <div class="col justify-content-center m-auto">
+                フリーズクリック
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.js"></script>

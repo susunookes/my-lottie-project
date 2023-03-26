@@ -5,7 +5,7 @@ body {
 }
 
 .row {
-  margin: 0;
+  margin: 0px;
 }
 
 .page-section {
@@ -21,4 +21,39 @@ body {
   width: 15rem;
   height: 30rem;
   background-color: #64c7be;
+}
+
+.sign-up-form {
+  text-align: left;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.lottie-interactive {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item-toggle {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-item-link {
+  padding: 2px 5px;
+  text-decoration: none;
+}
+.nav-item-link:active {
+  text-decoration: none;
+}
+.nav-item-link:visited {
+  color: #3A10E5;
+}
+
+#begin-section {
+  background-color: #6400e4;
+  color: #fff;
 }/*# sourceMappingURL=frontpage.css.map */
